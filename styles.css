@@ -197,21 +197,12 @@ nav {
     flex-shrink: 0;
 }
 
-.placeholder-image {
+.about-image img {
     width: 250px;
     height: 300px;
-    background: linear-gradient(135deg, var(--primary-light), var(--primary));
+    object-fit: cover;
     border-radius: var(--radius);
-    display: flex;
-    align-items: center;
-    justify-content: center;
     box-shadow: var(--shadow);
-}
-
-.placeholder-image span {
-    font-size: 5rem;
-    color: white;
-    opacity: 0.8;
 }
 
 .about-text p {
